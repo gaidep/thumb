@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^gaidep/(.*)x(.*)/r/(.*) gaidep/thumb.php?src=http://$3&h=$2&w=$1&zc=1
+RewriteRule ^gai/xinh/(.*) gaidep/thumb.php?src=http://$1
